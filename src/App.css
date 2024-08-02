@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 20px; /* Ensure padding around content */
 }
 
 .App-logo {
@@ -35,4 +36,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* New styles for table and columns */
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 10px; /* Spacing between columns */
+  margin-top: 20px; /* Margin above the table */
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+td select {
+  width: 100%;
+}
+
+td input[type="text"] {
+  width: 100%;
 }
